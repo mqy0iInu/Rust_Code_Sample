@@ -3,6 +3,10 @@
 これからRustを学ぶ方の学習の助けになれば幸いです。  
 ※ 技術的ご質問にはお答えできません。
 
+[SDL2 Sample Code!!!]  
+
+<img src="src/rust_sdl2/pic/rust_sdl2.gif" alt="file">
+
 # フィルダ構成
 | ファイル、フィルダ | 説明       |
 | ---------- | ---------- |
@@ -29,7 +33,7 @@ https://github.com/libsdl-org/SDL/releases
 
 ## 2.インストール
 解凍したファルダの`lib/x64` 内のファイルをすべて下記にコピー＆ペースト  
-<img src="rust_sdl2/pic/sdl2_inst.png" alt="file">
+<img src="Rust-Code-Sample/../src/rust_sdl2/pic/sdl2_inst.png" alt="file">
   
 [Windows11 x64の場合]  
 >C:/Users/`{USER_NAME}`/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/1stable-x86_64-pc-windows-msvc/lib
@@ -40,5 +44,3 @@ https://github.com/libsdl-org/SDL/releases
 ## 3.実行
  1) `cargo run` で実行
  2) キーボードの十字キーに応じて画面内のオブジェクトが動く
-
-<img src="rust_sdl2/pic/rust_sdl2.gif" alt="file">
