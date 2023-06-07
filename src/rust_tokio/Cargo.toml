@@ -1,0 +1,12 @@
+[package]
+name = "rust_tokio"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.5", features = ["full"] }
+mini-redis = "0.4"
+console-subscriber = "0.1.0"
+futures = "0.3"
+rand = "0.8"
+reqwest = "0.11"
